@@ -12,13 +12,13 @@ export class AppComponent {
   public appPages = [
     {
       title: 'Home',
-      color: #ff0000,
+      color: red,
       url: '/home',
       icon: 'home'
     },
     {
       title:  'List',
-      color: #ff0000,
+      color: red,
       url: '/list',
       icon: 'list'
     }
