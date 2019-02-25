@@ -1,6 +1,8 @@
 {
   "name": "SOV",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular",
   "id": "6b569fac"
 }
