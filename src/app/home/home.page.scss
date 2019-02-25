@@ -2,3 +2,12 @@
   max-height: 35vh;
   overflow: hidden;
  }
+#sidebarMenu {
+  .menu-inner {
+    background: #000;
+    width: 270px;
+
+    ion-content {
+      background: transparent!important;
+    }
+  }
