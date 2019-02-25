@@ -11,12 +11,12 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 export class AppComponent {
   public appPages = [
     {
-      title: 'Home',
+      title: <span style="color:red"'Home'</span>,
       url: '/home',
       icon: 'home'
     },
     {
-      title: 'List',
+      title:  <span style="color:red"'List'</span>,
       url: '/list',
       icon: 'list'
     }
