@@ -8,7 +8,16 @@ import { DataService } from './data.service';
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html'
+  templateUrl: 'app.html'
 })
+export class MyApp {
+  rootPage: any = 'HomePage';
+  
+  constructor(platform: Platform) {
+    platform.read().then(() => {
+    });
+  }
+}
 export class AppComponent {
   objectKeys = Object.keys;
   cryptos: any;
